@@ -1,0 +1,126 @@
+/* cyber-war-section */
+
+.cyber-war-section .common-box .inner-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 852px;
+    padding: 90px 0;
+    padding-left: 40px;
+}
+.cyber-war-section .common-box{
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cyber-war-section.non-blend .common-box{
+    gap: 45px;
+}
+.cyber-war-section .common-box .icon svg {
+    --size: 120px;
+}
+.cyber-war-section .image{
+    max-width: 367px;
+    flex: 0 0 367px;
+    display: flex;
+    align-items: center;
+}
+.cyber-war-section:not(.non-blend) .image{
+    width: 100%;
+}
+.cyber-war-section .image img{
+    mix-blend-mode: luminosity;
+    /* height: 200px; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.cyber-war-section.non-blend .image img{
+    mix-blend-mode: normal;
+}
+.cyber-war-section .inner-content p{
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 0;
+    letter-spacing: 0.2px;
+}
+.cyber-war-section.non-blend .inner-content p{
+    letter-spacing: 0.5px;
+}
+.cyber-war-section .common-box .title{
+    margin-top: 0;
+    letter-spacing: 0.2px;
+}
+.cyber-war-section.non-blend .common-box .title{
+    letter-spacing: 0.5px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cyber-war-section{
+        padding: 60px 0;
+        margin: -1px 0;
+    }
+    .cyber-war-section .common-box .inner-content{
+        padding: 40px;
+        padding-bottom: 0;
+        align-items: start;
+        max-width: unset;
+    }
+    .cyber-war-section .common-box .inner-content .title br{
+        display: none;
+    }
+    .cyber-war-section .common-box{
+        flex-direction: column;
+    }
+    .cyber-war-section .common-box .title{
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .cyber-war-section.non-blend .common-box .title{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .cyber-war-section .image{
+        margin: 0 auto;
+        height: 150px;
+        flex: 0 0 300px;
+        overflow: hidden;
+    }
+    .cyber-war-section .image img{
+        object-fit: cover;
+    }
+    .cyber-war-section:not(.non-blend) .image img{
+        transform: scale(1.2);
+    }
+    .cyber-war-section .common-box .inner-content{
+        gap: 23px;
+    }
+    .cyber-war-section:not(.non-blend) .common-box{
+        gap:0;
+    }
+}
+@media screen and (max-width: 575px) {
+    .cyber-war-section .common-box .inner-content{
+        padding: 16px;
+        padding-top: 24px;
+    }
+    .cyber-war-section.non-blend .common-box .inner-content{
+        padding: 40px 20px 0;
+    }
+    .cyber-war-section.non-blend .common-box .image{
+        padding: 0 20px;
+    }
+    .cyber-war-section.non-blend .image img{
+        object-fit: contain;
+    }
+    .cyber-war-section .common-box .inner-content, .cyber-war-section .common-box{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .cyber-war-section:not(.non-blend) .image{
+        margin: 0;
+    }
+
+}
+
+/* cyber-war-section */

@@ -1,0 +1,98 @@
+/* banner-top-level */
+
+.banner-top-level{
+    padding-top: 260px;
+    padding-bottom: 0;
+}
+.banner-top-level .content{
+    margin-bottom: 50px;
+    max-width: 605px;
+}
+@media screen and (max-width: 1024px) {
+    .banner-top-level{
+        padding: 200px 0 80px;
+    }
+    .banner-top-level .content{
+        margin-bottom: 0;
+    }
+    .banner-top-level .content p{
+        margin-bottom: 0;
+    }
+    .banner-top-level .industry-section{
+        padding: 0;
+    }
+    .banner-top-level .service-section{
+        padding-bottom: 0;
+    }
+    .banner-top-level .complete-protection-section{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .banner-top-level .industry-section .main-title p{
+        display: none;
+    }
+    .banner-top-level .content{
+        padding-bottom: 80px;
+    }
+    .banner-top-level .common-box .content{
+        padding-bottom: 0;
+    }
+    .banner-top-level .complete-protection-section .main-title{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .banner-top-level .content p{
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .banner-top-level{
+        padding-top: 190px;
+    }
+}
+
+/* banner-top-level */
+
+/* service-section */
+
+.service-section .main-title{
+    color: #fff;
+    margin-bottom: 80px;
+    max-width: 880px;
+}
+.service-section .main-title p{
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+}
+.service-section .common-box .inner-content{
+    padding: 32px;
+    padding-bottom: 16px;
+}
+.service-section .common-box .icon svg{
+    --size: 45px;
+}
+.service-section .common-box .title{
+    margin-top: 16px;
+}
+.service-section .common-box p{
+    letter-spacing: 0.5px;
+}
+@media screen and (max-width: 1024px) {
+    .service-section{
+        padding: 80px 0;
+    }
+    .service-section .main-title{
+        margin-bottom: 60px;
+    }
+    .service-section .common-box{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+/* service-section */

@@ -1,0 +1,32 @@
+/* security-section */
+
+.security-section{
+    padding: 80px 0 160px;
+}
+.security-section .main-title .title{
+    margin-bottom: 80px;
+}
+
+.security-box{
+    color: #fff;
+}
+.security-box .title{
+    letter-spacing: 0.3px;
+    margin-bottom: 16px;
+}
+.security-box p{
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .security-section .main-title .title{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .security-section{
+        padding-bottom: 54px;
+    }
+}
+
+/* security-section */

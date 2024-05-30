@@ -1,0 +1,63 @@
+/* package-section */
+
+.package-section{
+    margin-bottom: -1px;
+}
+.package-section .main-title .title{
+    margin-bottom: 80px;
+}
+.package-box{
+    padding: 32px;
+    border-top: 4px solid var(--primary-color);
+    background-color: #fff;
+    height: 100%;
+}
+.package-box .title{
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+    margin-bottom: 16px;
+}
+.package-box p{
+    line-height: 25px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+.package-box.interest-package{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.package-box .transprance{
+    border-color: var(--dark-color);
+    color: var(--dark-color);
+    border-width: 2px;
+}
+.package-box.interest-package .title{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1024px) {
+    .package-section .main-title .title{
+        margin-bottom: 50px;
+    }
+    .package-slide .splide__track{
+        overflow: visible;
+    }
+}
+@media screen and (max-width: 991px) {
+    
+}
+@media screen and (max-width: 575px) {
+    .package-box p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .package-slide .splide__list{
+        padding-right: 70px !important;
+    }
+}
+
+/* package-section */

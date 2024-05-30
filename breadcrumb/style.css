@@ -1,0 +1,31 @@
+/* breadcrumb */
+
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.breadcrumb li{
+    position: relative;
+}
+.breadcrumb li:not(:last-child)::after{
+    content: '/';
+    padding-right: 5px;
+    margin-left: 5px;
+    color: #E8E8E8;   
+}
+.breadcrumb a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #E8E8E8;
+    text-transform: capitalize;
+}
+.breadcrumb .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #E8E8E8;
+}
+
+/* breadcrumb */

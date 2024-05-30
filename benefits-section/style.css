@@ -1,0 +1,26 @@
+/* benfit-section */
+
+.benfit-section .row{
+    padding-top: 15px;
+}
+.benfit-content .title{
+    margin-bottom: 16px;
+}
+.benfit-content p{
+    color: #fff;
+    line-height: 25px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 991px) {
+    
+}
+@media screen and (max-width: 575px) {
+    
+}
+
+/* benfit-section */

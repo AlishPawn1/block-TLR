@@ -1,0 +1,8 @@
+.news-insight-list{
+    padding-bottom: 180px;
+}
+@media screen and (max-width: 991px) {
+    .news-insight-list{
+        padding-bottom: 120px;
+    }
+}

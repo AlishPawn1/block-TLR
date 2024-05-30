@@ -1,0 +1,115 @@
+/* banner-first */
+
+.banner-first{
+    position: relative;
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+.banner-first .background-image{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.banner-first .background-image img{
+    height: 526px;
+    /* opacity: 0.15;    */
+    width: 100%;
+    object-fit: cover;
+    /* margin-top: 200px; */
+}
+.banner-first .banner-content{
+    position: relative;
+    z-index: 1;
+    max-width: 873px;
+    margin-bottom: 80px;
+}
+.banner-first .main-title .title{
+    color: var(--primary-color);
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.2px;
+    margin-bottom: 16px;
+}
+.banner-first .main-title p{
+    color: #fff;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    letter-spacing: 0.2px;
+    line-height: 52px;
+}
+.banner-first .main-title .btn-box{
+    margin-top: 32px;
+}
+.banner-first .row{
+    position: relative;
+    z-index: 1;
+}
+.explore-box{
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(1.5px);
+    color: #fff;
+    padding: 24px;
+    height: 100%;
+}
+.explore-box p{
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+.banner-first .common-box .title{
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.banner-first .common-box p{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-first .common-box{
+        /* max-height: 400px;
+        min-height: 370px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 575px) {
+    .banner-first .common-box{
+        min-height: 330px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .banner-first .main-title .title{
+        font-size: 48px;
+        line-height: 52px;
+        margin-bottom: 24px;
+    }
+    .banner-first .main-title p{
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .banner-first .banner-content{
+        margin-bottom: 100px;
+        max-width: 650px;
+    }
+    .explore-box{
+        min-height: 232px;
+        backdrop-filter: unset;
+    }
+    .banner-first .background-image{
+        top: 140px;
+    }
+    .banner-first .background-image img{
+        height: 394px;
+    }
+}
+
+/* banner-first */

@@ -1,0 +1,74 @@
+/* request-form-section */
+
+.request-form-section .row{
+    position: relative;
+    z-index: 1;
+}
+.protection-list li{
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 16px;
+}
+.protection-list li::before{
+    content: '';
+    background-image:url('data:image/svg+xml,<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.2098 1.10181L5.37106 8.90367L0.791016 4.32889" stroke="%231E1E1E" stroke-width="2" stroke-miterlimit="10"/></svg>');
+    background-repeat: no-repeat;
+    --size: 22px;
+    height: var(--size);
+    width: var(--size);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-position: center center;
+
+}
+.protection-list {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.request-form-section .content .title{
+    margin-bottom: 40px;
+    width: 90%;
+}
+.protection-detail p{
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+}
+.request-form .form-group{
+    margin-bottom: 16px;
+}
+.request-form label{
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 7px;
+}
+.request-form .form-input{
+    width: 100%;
+    border: 2px solid #E8E8E8;
+    padding: 13px 15px;
+    background-color: transparent;
+}
+.request-form input[type="submit"]{
+    max-width: 200px;
+    max-height: 60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* request-form-section */

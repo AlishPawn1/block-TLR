@@ -1,0 +1,34 @@
+/* banner-fifth */
+
+.banner-fifth{
+    padding: 260px 0 120px;
+}   
+.banner-fifth p{
+    margin-bottom: 0;
+}
+.banner-fifth .content {
+    max-width: 772px;
+}
+.banner-fifth .breadcrumb{
+    margin-bottom: 32px;
+}
+.banner-fifth .main-title .title{
+    margin-bottom: 8px;
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .banner-fifth{
+        padding: 150px 0 120px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .banner-fifth p{
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+
+
+/* banner-fifth */

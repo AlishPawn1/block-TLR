@@ -1,0 +1,131 @@
+/* single-content */
+
+.single-content .top-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.single-content .top-paragraph .title{
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+.single-content .top-paragraph p{
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+blockquote p{
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+}
+blockquote{
+    padding: 5px 10px 5px 40px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 40px;
+}
+.middle-paragraph{
+    padding-bottom: 40px;
+}
+.middle-paragraph .title{
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+.single-content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.single-content li{
+    position: relative;
+    padding-left: 25px;
+}
+.single-content li::before{
+    content: '';
+    --size: 10px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.single-content figure img{
+    height: 340px;
+    width: 100%;
+    object-fit: cover;
+}
+.single-content figure figcaption{
+    padding-top: 10px;
+    text-align: end;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    color: #000;
+}
+.single-content .single-side .title{
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin-bottom: 24px;
+}
+.single-side ul{
+    gap: 16px;
+}
+.single-side li{
+    position: relative;
+    padding-left: 30px;
+}
+.single-side li::before{
+    content: '';
+    --size: 18px;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--dark-color);
+    background-image: url('data:image/svg+xml,<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_23_184)"><path d="M9.24266 4.5H0.757812" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/><path d="M5.60645 0.805176L9.24281 4.49991" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/><path d="M9.24281 4.5L5.60645 8.19474" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/></g><defs><clipPath id="clip0_23_184"><rect width="10" height="9" fill="white"/></clipPath></defs></svg>');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0;
+}
+.single-content a{
+    color: var(--fourth-color);
+}
+.single-content-info{
+    display: flex;
+    gap: 80px;
+}
+.single-content-info .single-side{
+    max-width: 305px;
+    flex: 0 0 305px;
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .single-content-info{
+        flex-direction: column;
+        gap: 120px;
+    }
+}
+@media screen and (max-width: 575px) {
+    
+}
+
+/* single-content */

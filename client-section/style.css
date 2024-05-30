@@ -1,0 +1,31 @@
+/* client-section */
+
+.client-section{
+    margin-top: -1px;
+}
+.client-section .main-title{
+    width: 80%;
+}
+.client-box p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 24px;
+    /* letter-spacing: 0.5px; */
+}
+.client-box .client-detail span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--primary-color);
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 991px) {
+    .client-section .main-title{
+        width: 100%;
+    }
+}
+
+/* client-section */

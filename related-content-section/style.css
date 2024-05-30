@@ -1,0 +1,50 @@
+/* related-content-section */
+
+.related-content-section .main-title .title{
+    letter-spacing: 0.5px;
+}
+.related-content-link{
+    padding-left: 0;
+    margin-top: 25px;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.related-content-link a{
+    color: #000;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+.related-content-link li{
+    position: relative;
+    padding-left: 30px;
+}
+.related-content-link li::before{
+    content: '';
+    --size: 18px;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--dark-color);
+    background-image: url('data:image/svg+xml,<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_23_184)"><path d="M9.24266 4.5H0.757812" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/><path d="M5.60645 0.805176L9.24281 4.49991" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/><path d="M9.24281 4.5L5.60645 8.19474" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/></g><defs><clipPath id="clip0_23_184"><rect width="10" height="9" fill="white"/></clipPath></defs></svg>');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .related-content-link{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    
+}
+
+/* related-content-section */

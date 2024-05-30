@@ -1,0 +1,67 @@
+/* banner-fourth */
+
+.banner-fourth{
+    padding-bottom: 0;
+    padding-top: 260px;
+}
+.banner-fourth .content {
+    position: relative;
+    display: flex;
+    gap: 80px;
+    max-width: unset;
+    width: 95%;
+}
+.banner-fourth .background-image {
+    top: -64px;
+}
+.banner-fourth .content .image {
+    --size: 370px;
+    height: var(--size);
+    max-width: var(--size);
+    background-color: var(--primary-color);
+    flex: 0 0 var(--size);
+}
+.banner-fourth p{
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 33px;
+}
+.banner-fourth .content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    background-color: #fff;
+}
+@media screen and (max-width: 1024px) {
+    .banner-fourth .content::before{
+        content: none;
+    }
+    .banner-fourth{
+        padding-top: 150px;
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .banner-fourth .content{
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .banner-fourth{
+        padding-bottom: 80px;
+    }
+    .banner-fourth .background-image{
+        top: 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    .banner-fourth .background-image{
+        right: -137px;
+        left: -102px;
+    }
+}
+
+/* banner-fourth */

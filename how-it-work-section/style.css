@@ -1,0 +1,98 @@
+/* how-it-work-section */
+
+.how-it-work-section .background-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+}
+.how-it-work-section .main-title .title{
+    margin-bottom: 48px;
+}
+.how-it-work-section .row, .how-it-work-section .main-title{
+    position: relative;
+    z-index: 1;
+}
+.how-work-content .title{
+    display: inline-block;
+    background-color: var(--dark-color);
+    padding: 24px 32px 0;
+    margin-bottom: 0;
+    color: var(--primary-color);
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+    margin-bottom: -1px;
+}
+.how-work-content .title .icon{
+    --size: 30px;
+    width: var(--size);
+    height: var(--size);
+    display: inline-block;
+    margin-right: 16px;
+}
+.how-work-content .title .icon svg{
+    height: 100%;
+    width: 100%;
+}
+.how-work-content .title .text::before {
+    content: attr(data-num);
+}
+.how-work-content p{
+    background-color: var(--dark-color);
+    margin-bottom: 0;
+    padding: 32px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.how-work-row .item:nth-child(2){
+    margin-top: 168px !important;
+}
+.how-work-row .item:nth-child(3){
+    margin-top: 361px !important;
+}
+@media screen and (max-width: 1024px) {
+    .how-work-row .item:nth-child(3), .how-work-row .item:nth-child(2){
+        margin-top: 2px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .how-work-content{
+        height: 100%;
+        background-color: var(--dark-color);
+    }
+    .how-work-content .title .text::before {
+        content: attr(data-num-resp);
+    }
+    .how-work-content .title .icon{
+        display: none;
+    }
+    .how-work-content .title .text::before{
+        --size: 60px;
+        height: var(--size);
+        width: var(--size);
+        color: var(--dark-color);
+        background-color: var(--primary-color);
+        display: grid;
+        place-content: center;
+        margin-right: 16px;
+    }
+    .how-work-content .title .text{
+        display: flex;
+        align-items: center;
+    }
+    .how-work-content .title{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    .how-it-work-section .background-image{
+        top: 0;
+    }
+}
+
+/* how-it-work-section */

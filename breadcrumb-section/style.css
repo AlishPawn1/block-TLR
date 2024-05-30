@@ -1,0 +1,11 @@
+.breadcrumb-section{
+    padding-top: 40px;
+    background-color: var(--dark-color);
+    margin-bottom: -1px;
+}
+.breadcrumb-section .breadcrumb a{
+    font-weight: 400;
+}
+.breadcrumb-section .breadcrumb .text{
+    font-weight: 700;
+}

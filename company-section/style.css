@@ -1,0 +1,17 @@
+/* company-section */
+
+.company-box .image{
+    height: 122px;
+    background-color: #fff;
+    padding: 30px;
+}
+.company-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 575px) {
+
+}
+
+/* company-section */
