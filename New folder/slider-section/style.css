@@ -1,0 +1,36 @@
+/* splide-arrow */
+
+.splide__arrow{
+    --size: 60px;
+    height: var(--size);
+    width: var(--size);
+    display: grid;
+    place-content: center;
+    top: unset;
+    transform: unset;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+    background-color: var(--primary-color);
+    opacity: 1;
+}
+.splide__arrow.splide__arrow--prev{
+    right: 61px;
+    left: unset;
+}
+
+/* splide-arrow */
+
+/* slider-section */
+
+.software-page-slide .image {
+    max-height: 675px;
+    height: 100%;
+}
+.software-page-slide .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* slider-section */
