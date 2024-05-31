@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>banner sixth</title>
+    <title>Banner Isotope</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <link rel="stylesheet" type="text/css" href="../global-style.css">
     <link rel="stylesheet" type="text/css" href="../css/global-responsive.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.min.css">
 </head>
 <body>
-        
-    <section class="banner-sixth common-banner bg-dark">
+    <section class="banner-isotop common-banner bg-dark">
         <div class="container">
             <div class="background-image">
                 <img src="image/common-banner.png" alt="">
@@ -30,14 +30,14 @@
                 <div class="col-md-6">
                     <div class="banner-categories">
                         <h2 class="title">Categories</h2>
-                        <ul class="banner-categories-list">
-                            <li><button class="btn-box transprance active">View all</button></li>
-                            <li><button class="btn-box transprance">Company news</button></li>
-                            <li><button class="btn-box transprance">TLR software</button></li>
-                            <li><button class="btn-box transprance">TLR services</button></li>
-                            <li><button class="btn-box transprance">Industry news</button></li>
-                            <li><button class="btn-box transprance">Research</button></li>
-                            <li><button class="btn-box transprance">Threats</button></li>
+                        <ul class="banner-categories-list isotop-btns">
+                            <li><button class="btn-box transprance active" data-filter="*">View all</button></li>
+                            <li><button class="btn-box transprance" data-filter=".company">Company news</button></li>
+                            <li><button class="btn-box transprance" data-filter=".software">TLR software</button></li>
+                            <li><button class="btn-box transprance" data-filter=".service">TLR services</button></li>
+                            <li><button class="btn-box transprance" data-filter=".industry">Industry news</button></li>
+                            <li><button class="btn-box transprance" data-filter=".research">Research</button></li>
+                            <li><button class="btn-box transprance" data-filter=".threats">Threats</button></li>
                         </ul>
                     </div>
                 </div>
@@ -45,10 +45,11 @@
         </div>
     </section>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="../js/wow.min.js"></script>
-<script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
