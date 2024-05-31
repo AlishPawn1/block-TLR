@@ -12,8 +12,8 @@
     letter-spacing: 0.5px;
     margin-bottom: 0;
 }
-.single-content .top-paragraph p{
-    margin-bottom: 0;
+.single-content p{
+    margin-bottom: 24px;
     letter-spacing: 0.5px;
     line-height: 25px;
 }
@@ -121,7 +121,10 @@ blockquote{
 @media screen and (max-width: 991px) {
     .single-content-info{
         flex-direction: column;
-        gap: 120px;
+        gap: 110px;
+    }
+    .single-content .single-side .title{
+        margin-bottom: 40px;
     }
 }
 @media screen and (max-width: 575px) {

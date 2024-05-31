@@ -1018,6 +1018,12 @@ header.header-black .request-btn .btn-box{
     margin-left: auto;
     margin-top: -1px;
 }
+.cyber-attact-box .arrow-btn button:hover{
+    background-color: var(--primary-color);
+}
+.cyber-attact-box .arrow-btn button:hover rect{
+    fill: var(--dark-color);
+}
 .cyber-attact-box .title{
     margin-bottom: 30px;
     font-size: 40px !important;

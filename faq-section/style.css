@@ -16,11 +16,23 @@
     letter-spacing: 0.5px;
     margin-bottom: 24px;
 }
+.faq-item li{
+    color: #fff;
+    letter-spacing: 0.5px;
+}
 .faq-accordion .title::before {
-    content: '\2b';
+    /* content: '\2b'; */
+    content: '';
     position: absolute;
     right: 0;
-    font-family: 'Font Awesome 6 Free';
+    /* font-family: 'Font Awesome 6 Free'; */
+    background-image: url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.1875 8.25C15.1875 8.74219 14.8008 9.09375 14.3438 9.09375H8.71875V14.7188C8.71875 15.2109 8.33203 15.5977 7.875 15.5977C7.38281 15.5977 7.03125 15.2109 7.03125 14.7188V9.09375H1.40625C0.914062 9.09375 0.5625 8.74219 0.5625 8.28516C0.5625 7.79297 0.914062 7.40625 1.40625 7.40625H7.03125V1.78125C7.03125 1.32422 7.38281 0.972656 7.875 0.972656C8.33203 0.972656 8.71875 1.32422 8.71875 1.78125V7.40625H14.3438C14.8008 7.40625 15.1875 7.79297 15.1875 8.25Z" fill="%2313DB81"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    --size: 16px;
+    height: var(--size);
+    width: var(--size);
     font-size: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -28,7 +40,8 @@
     color: var(--primary-color);
 }
 .faq-accordion .faq-title:not(.collapsed) .title::before {
-    content: '\f068';
+    /* content: '\f068'; */
+    background-image: url('data:image/svg+xml,<svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.25 1.25C11.25 1.74219 10.8633 2.09375 10.4062 2.09375H0.84375C0.351562 2.09375 0 1.74219 0 1.25C0 0.792969 0.351562 0.40625 0.84375 0.40625H10.4062C10.8633 0.40625 11.25 0.792969 11.25 1.25Z" fill="%2313DB81"/></svg>');
 }
 .faq-accordion .faq-item{
     border-bottom: 1px solid var(--primary-color);
